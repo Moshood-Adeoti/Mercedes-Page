@@ -16,7 +16,9 @@ export default function App() {
     <BrowserRouter>
       <Routes>
 
-        <Route path="/" element={<SideNavbar />}>         
+        <Route path="/" element={<SideNavbar />}>  
+         <Route index element={<Dashboard />} />
+       
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="profile" element={<Profile />} />
           <Route path="market" element={<MarketPlace />} />

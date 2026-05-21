@@ -158,7 +158,7 @@ function SideNavbar() {
 
         </div>
 
-        <div className="mt-6">
+        <div className="mt-[-10px]">
           <ThemeToggle />
         </div>
 
